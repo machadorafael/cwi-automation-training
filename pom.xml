@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>br.com.cwi</groupId>
-	<artifactId>cwi-automation-training</artifactId>
+	<artifactId>sicredi-automation-web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>automation-training</name>
+	<name>automation-web</name>
 	<url>http://maven.apache.org</url>
 
 	<build>
@@ -37,7 +37,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.6.0</version>
+			<version>3.11.0</version>
 		</dependency>
 		<dependency>
 			<groupId>info.cukes</groupId>

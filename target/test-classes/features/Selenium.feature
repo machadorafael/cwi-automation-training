@@ -3,13 +3,8 @@
 Funcionalidade: Selenium Teste Exemplo
 
   @selenium
-  Cenario: Acessar Menu Fabrica de Testes
-    Dado que estou na HomePage do site da CWI    
-    Quando acesso o menu Servicos - Fabrica de Testes
-    Entao deve apresentar pagina com informacoes da fabrica de testes
-    
-  @selenium
-  Cenario: Acessar Menu Quem Somos
-    Dado que estou na HomePage do site da CWI    
-    Quando acesso o menu Sobre a CWI - Quem Somos
-    Entao deve apresentar pagina com a historia da empresa
+  Cenario: Efetuar Login com dados validos
+    Dado que estou na HomePage do Woop    
+    Quando clico no botao Login
+    E preencho os campos E-mail e Senha com dados validos
+    Entao devo conseguir efetuar login corretamente
